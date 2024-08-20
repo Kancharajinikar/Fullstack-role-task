@@ -1,0 +1,97 @@
+/* General styles for the blog list */
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+/* Styles for each blog preview */
+.blog-preview {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Hover effect for blog preview */
+.blog-preview:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Title of the blog post */
+.blog-preview h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Excerpt of the blog post */
+.blog-preview p {
+    margin-bottom: 15px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Container for the buttons */
+.blog-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Button active state */
+.btn:active {
+    background-color: #004085;
+    transform: translateY(0);
+}
+
+/* Styling for the delete button */
+.delete-btn {
+    background-color: #dc3545;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer; 
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+}
+
+.delete-btn:active {
+    background-color: #bd2130;
+    transform: translateY(0);
+}

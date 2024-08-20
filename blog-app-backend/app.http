@@ -1,0 +1,37 @@
+# Create a new blog post
+POST http://localhost:5000/posts
+Content-Type: application/json
+
+{
+  "title": "My First Blog Post",
+  "content": "This is the content of my first blog post."
+}
+
+###
+
+# Get all blog posts
+GET http://localhost:5000/posts
+
+###
+
+# Get a specific blog post by ID
+# Replace {id} with an actual post ID returned from the POST request
+GET http://localhost:5000/posts/1
+
+###
+
+# Update a blog post by ID
+# Replace {id} with an actual post ID returned from the POST request
+PUT http://localhost:5000/posts/1
+Content-Type: application/json
+
+{
+  "title": "Updated Blog Post Title",
+  "content": "This is the updated content of the blog post."
+}
+
+###
+
+# Delete a blog post by ID
+# Replace {id} with an actual post ID returned from the POST request
+DELETE http://localhost:5000/posts/1

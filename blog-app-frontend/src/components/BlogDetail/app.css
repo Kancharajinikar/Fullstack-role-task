@@ -1,0 +1,30 @@
+.blog-details {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.blog-details h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.blog-details p {
+    color: #666666;
+    line-height: 1.6;
+}
+
+.blog-details button {
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog-details button:hover {
+    background-color: #c0392b;
+}
